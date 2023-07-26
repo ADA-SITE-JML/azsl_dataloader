@@ -1,1 +1,9 @@
-
+@software{Data loader code for AzSL,
+  author = {Jamal Hasanov},
+  doi = {00.000/000.0000},
+  month = {12},
+  title = {{My Research Software}},
+  url = {https://github.com/ADA-SITE-JML/azsl_dataloader},
+  version = {3.4},
+  year = {2023}
+}

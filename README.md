@@ -10,6 +10,14 @@ The dactyl signs consist of:
 
 ### Data loader for the AzSL
 
+The following diagram explains the flow of the word-based data loading process. It considers the following:
+- based on the given video source (Cam1 or Cam2), feature type (i3d, squeezenet's last convolutional layer or just pixel data of frames) and video processing tool (OpenCV, VidGear or TorchVision) extracts the data from the mp4 files
+- depending on the configuration, it may keep the frames with only hands, removing the idle parts of the video.
+
+The output of the process is the encoded sentence and the corresponding video data. For debugging purposes, the name of the file is also added.
+
+![AzSL_DataLoader1](https://github.com/ADA-SITE-JML/azsl_dataloader/assets/7048329/f32a23bf-59a1-474d-a653-d10885317504)
+
 The data loader code starts with the initialization and config work, that defines the following:
 - Possibility of running notebook on the host machine, not on Colab's environment. It is possble if the user has good computational resources and do not want to be interrupted after 8 hours or execution
 - The source where the dataset is located: Global GoogleDrive, the user's Google Drive or any other accessible disk

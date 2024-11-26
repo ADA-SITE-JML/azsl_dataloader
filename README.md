@@ -36,6 +36,6 @@ The povided works are originally described in the following papers and expected 
 
 1. J. Hasanov, N. Alishzade, A. Nazimzade, S. Dadashzade, T. Tahirov. _Development of a hybrid word recognition system and dataset for the Azerbaijani Sign Language dactyl alphabet_. Speech Communication, Volume 153, 2023, 102960, ISSN 0167-6393, https://doi.org/10.1016/j.specom.2023.102960.
 
-2. N. Alishzade and J. Hasanov. _Development of an Extensive Dataset for the Azerbaijani Sign Language Dactyl, Gloss, and Sentence Recognition._
+2. N. Alishzade and J. Hasanov. _AzSLD: Azerbaijani Sign Language Dataset for Fingerspelling, Word, and Sentence Translation with Baseline Software._ The preprint is available at: https://arxiv.org/abs/2411.12865
 
 The citing could be done through the GitHub's new "Cite this repository" function.
